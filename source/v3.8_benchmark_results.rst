@@ -1,7 +1,7 @@
 .. _v3.8_benchmark_results:
 
-NESTi 3.8  performance benchmarks
-==================================
+NEST 3.8 performance benchmarks
+================================
 
 .. important::
 
@@ -32,7 +32,7 @@ Strong scaling experiment of the Microcircuit model [3]_
 
        * The model has ~80 000 neurons and ~300 million synapses, minimal delay 0.1 ms
        * 2 MPI processes per node, 64 threads per MPI process
-       * Increasing number of computing resources decrease simulation time
+       * Increasing number of computing resources decreases simulation time
        * Data averaged over 3 runs with different seeds, error bars indicate standard deviation
        * The model runs faster than real time [4]_
 
@@ -91,7 +91,7 @@ Weak scaling experiment of the HPC benchmark model [6]_
        :class: sd-align-minor-center
 
 
-       * The size of network scales proportionally with the computational resources used
+       * The size of the network scales proportionally with the computational resources used
        * Largest network size in this diagram: ~5.8 million neurons and ~65 billion synapses, minimal delay 1.5 ms
        * 2 MPI processes per node, 64 threads per MPI process
        * The figure shows that NEST can handle massive networks and simulate them efficiently
@@ -133,5 +133,5 @@ References
         and Function. 223: 1409 https://doi.org/10.1007/s00429-017-1554-4
 
 .. [6]  Jordan J, Ippen T, Helias M, Kitayama I, Sato M, Igarashi J, Diesmann M, Kunkel S. 2018.
-        Extremely scalable spiking neuronal network simulation code: From laptops to exacale computers.
+        Extremely scalable spiking neuronal network simulation code: From laptops to exascale computers.
         Frontiers in Neuroinformatics. 12. https://www.frontiersin.org/journals/neuroinformatics/articles/10.3389/fninf.2018.00002
