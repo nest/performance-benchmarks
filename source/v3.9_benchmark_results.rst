@@ -49,11 +49,11 @@ Strong scaling experiment of the Multi-area-model [5]_
 
        Dynamical regime: Ground state
 
-       .. image:: /_static/img/NEST-v3.9_MAM_DOCS_ground.png
+       .. image:: /_static/img/MAM_V3.9_ground-state-numa-balancing.png
 
        Dynamical regime: Metastable state
 
-       .. image:: /_static/img/NEST-v3.9_MAM_DOCS_metastable.png
+       .. image:: /_static/img/MAM_V3.9_ground-state-numa-balancing.png
 
 
 .. grid:: 1 1 1 1
@@ -68,6 +68,8 @@ Strong scaling experiment of the Multi-area-model [5]_
        * Steady decrease of run time with additional compute resources
        * Data averaged over 3 runs with different seeds, error bars indicate standard deviation
        * Using a NUMA policy to avoid balancing attempts by the operating system
+
+         sbatch option `#SBATCH --numa-balancing=0`
 
 
 
